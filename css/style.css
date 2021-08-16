@@ -1,0 +1,249 @@
+* {
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Mada', sans-serif;
+    
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif */
+}
+.background {
+    background: url('../image/bg2.png');
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.nav-bar{
+    font-family: 'Mada', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.nav-top{
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+}
+.nav-bottom{
+    width: 82%;
+    justify-content: flex-end;
+}
+.nav-link{
+    color: #000;
+}
+.nav-link i{
+    font-size: 25px;
+}
+main{
+    margin-top: 120px;
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 30px;
+    font-family: 'Mada', sans-serif;
+}
+.row div{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+.row div:last-child{
+    width: 72%; 
+}
+
+.row div:last-child span {
+    align-self: center;
+      color: rgb(212, 78, 130);
+      font-family: 'Aref Ruqaa', serif;
+      font-size: 40px;
+      font-weight: 700;   
+      line-height: 1em;
+      text-align: right;
+    }
+    .logo img {
+        width: 150px;
+    }
+    .logo h2{
+        align-self: center;
+    }
+    .carousel{
+        height: 100vh;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+
+    .about {
+        background-color: rgba(255, 253, 253, 0.774);
+        
+        padding-top: 100px;
+    }
+    .contaier {
+        width: 80%;
+        margin: auto;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: right;
+    margin-bottom: 20px;
+}
+.content p {
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: normal;
+    margin-right: 15px;
+}
+.content div{
+    align-self: flex-end;
+}
+.banner-about{
+    height: 49vh;
+    background: url('../image/11062b_7124ff06fc56498d96722413f5f4846ff000.webp');
+}
+.banner-about h5{
+    letter-spacing: .1em;
+    z-index: 1;
+    color:#FF4040;
+    font-weight: bold;
+    text-shadow: rgb(0 0 0 / 40%) 0px 4px 5px;
+    font-size: 47px;
+    line-height: 1.1em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    
+}
+.h5-1{
+    margin-top: 20px;
+}
+.h5-2{
+    color: white;
+    align-self: flex-end;
+}
+.h5-3{
+    margin-left: 51px;
+    align-self: flex-end;
+}
+.services{
+    padding-top: 120px;
+    background: rgba(243, 243, 243, 0.973);
+}
+
+.row-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+.card-img-top{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 0 0 5px #000;
+}
+.underline{
+    background: #000;
+    width: 10% !important;
+    margin: auto;
+    height: 3px;
+    margin-top: 15px;
+}
+.ser-12{
+    margin-top:120px;
+    
+}
+.ser-12 .ser-22{
+    width: 85%;
+    margin: auto;
+}
+.ser-22 h3{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+.review{
+    margin-top: 120px;
+}
+.rev-12{
+    width: 90%;
+    margin:auto;
+    text-align: center;
+}
+.rev-12 h3{
+    width: 80%;
+    margin: auto;
+    line-height: 2;
+}
+.rev-22 p{
+    margin-top: 20px;
+    color: #FF4040;
+    font-weight: bold;
+    font-size: 23px;
+}
+.footer-12{
+    text-align: center;
+    border-top:5px solid #1e1e1e ;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+.copy-right{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 600px){
+
+.banner-about h5{
+    font-size: 2rem;
+    width: 100%;  
+}
+.banner-about .h5-2{
+    align-self: center;
+}
+.banner-about .h5-3{
+    align-self: center;
+}
+.row div{
+    justify-content: space-between;
+    width: 100%;
+}
+.row div:last-child{
+    width: 100%;
+
+}
+
+.row div:last-child span{
+    font-size: 20px;
+}
+.row div:last-child h1{
+    text-align: right;
+}
+h1 {
+    font-size: 1.3rem;
+}
+}
+@media (max-width: 768px){
+
+}
+
